@@ -1,0 +1,6 @@
+dependencies {
+		// If you want to use core functionality in your extension
+        compile project(":core")
+        
+        compile group: 'de.sven-jacobs', name: 'loremipsum', version: '1.0'
+}
